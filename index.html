@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Github Localizador</title>
+        <link rel="shortcut icon" href="https://www.github.com/github.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <script src="finder.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1><span>Github</span>Localizador</h1>
+            <div class="search-container">
+                <input type="text" class="query" value="" placeholder="Entre com o nome do usuário">
+                <button type="button" onclick="getUser()">
+                    <span class="material-icons-outlined">Localizar</span>
+                </button>
+            </div>
+        </header>
+        <main id="user"></main>
+    </body>
+</html>
